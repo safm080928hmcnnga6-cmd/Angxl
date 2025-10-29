@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tradiciones Mexicanas: Día de Muertos y la Catrina</title>
+    <style>
+        /* ===== ESTILOS GENERALES ===== */
+        body {
+            font-family: 'Poppins', sans-serif;
+            background: linear-gradient(180deg, #fff3e0, #ffe0b2);
+            margin: 0;
+            padding: 0;
+            color: #333;
+        }
+
+        /* ===== ENCABEZADO ===== */
+        header {
+            background: linear-gradient(90deg, #8e24aa, #d81b60, #fdd835);
+            color: white;
+            text-align: center;
+            padding: 25px;
+            box-shadow: 0 3px 10px rgba(0,0,0,0.3);
+        }
+        header h1 {
+            margin: 0;
+            font-size: 2.5em;
+            letter-spacing: 2px;
+        }
+        header h2 {
+            margin-top: 10px;
+            font-weight: normal;
+        }
+
+        /* ===== DECORACIÓN ===== */
+        .decoracion {
+            text-align: center;
+            font-size: 1.8em;
+            color: #ff4081;
+            animation: flotar 2s infinite alternate;
+        }
+        @keyframes flotar {
+            from { transform: translateY(0); }
+            to { transform: translateY(-5px); }
+        }
+
+        /* ===== CONTENIDO PRINCIPAL ===== */
+        main {
+            padding: 30px;
+            line-height: 1.8;
+        }
+        section {
+            margin-bottom: 60px;
+            background-color: #ffffffcc;
+            border-radius: 15px;
+            box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+            padding: 20px;
+            transition: transform 0.3s;
+        }
+        section:hover {
+            transform: scale(1.02);
+        }
+        h2 {
+            color: #8e24aa;
+            border-bottom: 2px dashed #f06292;
+            padding-bottom: 5px;
+        }
+        p {
+            font-size: 1.1em;
+        }
+        img {
+            display: block;
+            margin: 20px auto;
+            max-width: 90%;
+            border-radius: 10px;
+            border: 3px solid #f06292;
+        }
+
+        /* ===== FOOTER ===== */
+        footer {
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+            background: linear-gradient(90deg, #d81b60, #8e24aa);
+            color: white;
+            text-align: center;
+            padding: 10px;
+            font-size: 0.9em;
+            box-shadow: 0 -3px 8px rgba(0,0,0,0.2);
+        }
+
+        /* ===== BOTÓN EXTRA ===== */
+        .boton {
+            display: inline-block;
+            background-color: #f06292;
+            color: white;
+            padding: 10px 20px;
+            border-radius: 25px;
+            text-decoration: none;
+            margin-top: 15px;
+            transition: background 0.3s, transform 0.2s;
+        }
+        .boton:hover {
+            background-color: #ec407a;
+            transform: scale(1.1);
+        }
+
+        /* ===== PAPEL PICADO ===== */
+        .papel-picado {
+            text-align: center;
+            margin: 15px 0;
+        }
+        .bandera {
+            display: inline-block;
+            width: 60px;
+            height: 40px;
+            margin: 0 3px;
+            clip-path: polygon(0 0, 100% 0, 100% 80%, 50% 100%, 0 80%);
+        }
+        .rosa { background-color: #ec407a; }
+        .naranja { background-color: #ffb300; }
+        .verde { background-color: #43a047; }
+        .azul { background-color: #29b6f6; }
+        .morado { background-color: #8e24aa; }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>🏵️ Tradiciones Mexicanas 🏵️</h1>
+        <h2>Día de Muertos y el Origen de la Catrina</h2>
+    </header>
+
+    <div class="papel-picado">
+        <div class="bandera rosa"></div>
+        <div class="bandera naranja"></div>
+        <div class="bandera verde"></div>
+        <div class="bandera azul"></div>
+        <div class="bandera morado"></div>
+        <div class="bandera rosa"></div>
+    </div>
+
+    <div class="decoracion">💀🌸🕯️🎉🦋</div>
+
+    <main>
+        <section id="dia-de-muertos">
+            <h2>🌺 Día de Muertos</h2>
+            <p>
+                El <strong>Día de Muertos</strong> es una de las tradiciones más representativas y coloridas de México. 
+                Se celebra los días <strong>1 y 2 de noviembre</strong> y combina elementos indígenas y católicos 
+                en un homenaje lleno de amor hacia quienes ya partieron.
+            </p>
+            <p>
+                Las familias preparan <strong>altares</strong> decorados con flores de cempasúchil, velas, papel picado,
+                fotografías y la comida favorita de los difuntos. 
+                Se cree que en estas fechas las almas regresan para disfrutar de los aromas y recuerdos.
+                El Día de Muertos​​ es una festividad tradicional que se celebra principalmente los días 1 y 2 de noviembre, 
+                en la que se reúnen familiares y amigos para rendir homenaje y recordar a seres queridos que han fallecido.
+            </p>
+            <img src="https://www.anahuac.mx/mexico/sites/default/files/styles/webp/public/noticias/TUR_Muertos_Patrimonio_Cultural_1.jpg.webp?itok=i4aOD24T" alt="Altar del Día de Muertos">
+            <a class="boton" href="#origen-catrina">Ver origen de La Catrina</a>
+        </section>
+
+        <section id="origen-catrina">
+            <h2>💀 Origen de la Catrina</h2>
+            <p>
+                La <strong>Catrina</strong> es un ícono del Día de Muertos y de la cultura mexicana. 
+                Fue creada por el grabador <strong>José Guadalupe Posada</strong> bajo el nombre de 
+                <em>“La Calavera Garbancera”</em>, como una crítica social a quienes renegaban de su origen indígena.
+            </p>
+            <p>
+                Décadas después, el pintor <strong>Diego Rivera</strong> la popularizó en su mural 
+                <em>“Sueño de una tarde dominical en la Alameda Central”</em>, 
+                dándole su elegante vestido, sombrero y el nombre con el que hoy la conocemos.
+            </p>
+            <p>
+                Hoy, la Catrina representa la igualdad ante la muerte, la elegancia y el orgullo mexicano.
+            </p>
+            <img src="https://media.vogue.mx/photos/5d9fae82bbf1b400096dd243/master/w_1600%2Cc_limit/historia-de-la-catrina.jpg" alt="La Catrina">
+            <a class="boton" href="#dia-de-muertos">Volver arriba ⬆️</a>
+        </section>
+    </main>
+
+    <footer>
+        © 2025 Tradiciones Mexicanas | Diseño By Diavloo 😈💀
+    </footer>
+
+</body>
+</html>
+
